@@ -96,3 +96,36 @@ width: 315px;
     gap: 10px;
 }   
 }
+/* SYS_EXPLORATION_MODULE */
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.explore-wrapper .title-container{
+border: 1px solid #ff007f;
+width: 164px;
+}
+.explore-wrapper .title-container h2{
+color: #ff007f;
+}
+.small-text{
+    margin-top: 24px;
+}
+@media only screen and (min-width: 1440px) {
+.explore-container{
+flex-direction: row-reverse;
+justify-content: center;
+gap: 64px;
+}
+.explore-wrapper{
+width: 620px;
+}
+.explore-wrapper h3{
+    margin-bottom: 12px;
+}
+.small-text{
+    margin-top: 16px;
+}    
+}
