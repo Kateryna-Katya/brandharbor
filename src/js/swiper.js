@@ -14,7 +14,7 @@ const initReviewsSwiper = () => {
     modules: [Autoplay],
 
     slidesPerView: 1.3,
-    spaceBetween: 16,
+    spaceBetween: 12,
 
     loop: true,
     speed: 700,

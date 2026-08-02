@@ -145,3 +145,36 @@ color: #39ff14;
 width: 608px;
 }
 }
+/* SYS_DATABASE_MOCKUPS */
+.screenshots-section .title-container{
+border: 1px solid #a78bfa;
+    width: 152px;
+margin-left: auto;
+margin-right: auto;
+}
+.screenshots-section .title-container h2{
+color: #a78bfa;
+}
+.screenshots-section h3{
+text-align: center;
+}
+.screenshots-text{
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.screenshots-text {
+width: 640px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 56px;
+    }
+.reviews-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 24px;
+}
+.reviews-swiper .swiper-slide{
+width: 260px;
+}
+}
