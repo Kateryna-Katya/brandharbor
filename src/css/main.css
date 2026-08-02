@@ -129,3 +129,19 @@ width: 620px;
     margin-top: 16px;
 }    
 }
+/* DASHBOARD_ENGINE */
+.customize-wrapper .title-container{
+border: 1px solid #39ff14;
+width: 128px;
+}
+.customize-wrapper .title-container h2{
+color: #39ff14;
+}
+@media only screen and (min-width: 1440px) {
+.customize-container{
+    flex-direction: row;
+}
+.customize-wrapper{
+width: 608px;
+}
+}
